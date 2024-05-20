@@ -6,7 +6,13 @@ import { Carousel } from 'react-responsive-carousel';
 
 function ProjectCarrousel () {
     return (
-        <Carousel>
+        <Carousel
+        autoPlay 
+        interval={5000} 
+        infiniteLoop
+        showIndicators={false}
+        showStatus={false}
+        >
               {
             projets.map((projectCard) => (
                 <ProjectCard key={projectCard.id} projectCard={projectCard}/>
