@@ -20,7 +20,6 @@ function ProjectCarrousel () {
         }
         </Carousel>
     )
-    
 }
 
 export default ProjectCarrousel;
