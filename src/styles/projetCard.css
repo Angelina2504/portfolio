@@ -1,0 +1,27 @@
+.projetCard-container {
+    background-color: brown;
+}
+
+.h2Card  {
+    background-color: rgb(202, 248, 202);
+}
+
+.imgCard {
+    background-color: blueviolet;
+}
+
+.pCard {
+    background-color: aqua;
+}
+
+.techCard {
+    background-color: aliceblue;
+}
+
+.liensSite {
+    background-color: yellowgreen;
+}
+
+.liensRepo {
+    background-color: orange;
+}
