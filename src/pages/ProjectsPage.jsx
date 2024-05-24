@@ -2,7 +2,7 @@ import { useState } from "react";
 import ProjectCarrousel from "../components/ProjectCarrousel";
 import ProjectList from "../components/ProjectList";
 import '../styles/projectsPage.css'
-import '../assets/logo-lego-muscu.css'
+
 
 function ProjectsPage() {
     const [viewMode, setViewMode] = useState('carousel');
