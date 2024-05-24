@@ -1,7 +1,9 @@
+
+
  [
     {
         "id" :"1",
-        "image":"../src/assets/logo-lego-muscu.png",
+        "image":"./src/assets/logo-lego-muscu.png",
         "name": "Lego Muscu",
         "description": "Trouver son coach sportif en fonction des résultats du questionnaire",
         "techno":"HTML / CSS / JS",
@@ -11,7 +13,7 @@
     },
     {
         "id" :"2",
-        "image":"../src/assets/logo-no-made.png",
+        "image":"./src/assets/logo-no-made.png",
         "name": "No-made",
         "description": "Proposer un site de connection à la nature en intérieur et en exterieur.",
         "techno":"React.js / module.CSS",
