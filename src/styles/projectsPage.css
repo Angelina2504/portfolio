@@ -1,0 +1,16 @@
+.choice-list {
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.label {
+    background-color: blue;
+    color: white;
+    padding: 0.5em;
+}
+
+.select-list{
+    background-color: green;
+    color: white;
+}
