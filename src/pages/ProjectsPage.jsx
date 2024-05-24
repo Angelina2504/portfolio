@@ -1,8 +1,7 @@
 import { useState } from "react";
 import ProjectCarrousel from "../components/ProjectCarrousel";
 import ProjectList from "../components/ProjectList";
-
-
+import '../styles/projectsPage.css'
 
 function ProjectsPage() {
     const [viewMode, setViewMode] = useState('carousel');
@@ -11,10 +10,10 @@ function ProjectsPage() {
     return (
 
         <>
-        <form >
-          <label htmlFor="card-select">
+        <form className="choice-list">
+          <label className='label' htmlFor="card-select">
             Filtrer par{""}
-            <select
+            <select className="select-list"
               id="card-select"
               onChange={(e) => setViewMode(e.target.value)}
             >
