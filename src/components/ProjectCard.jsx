@@ -1,4 +1,8 @@
 import '../styles/projetCard.css'
+import '../data/projets.json'
+
+
+
 
 
 
