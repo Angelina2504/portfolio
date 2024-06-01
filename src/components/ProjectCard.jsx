@@ -1,5 +1,9 @@
 
 import '../styles/projetCard.css'
+import '../data/projets.json'
+
+
+
 
 function ProjectCard ({projectCard}) {
     return (

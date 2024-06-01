@@ -1,7 +1,9 @@
- [
+
+
+[
     {
         "id" :"1",
-        "image":"../src/assets/logo-lego-muscu.png",
+        "image": "{lego}",
         "name": "Lego Muscu",
         "description": "Trouver son coach sportif en fonction des résultats du questionnaire",
         "techno":"HTML / CSS / JS",
@@ -20,4 +22,4 @@
     
     }
    
-    ]
+]
