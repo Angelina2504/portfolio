@@ -1,10 +1,10 @@
-import projets from "../data/projets.json"; 
+import projets from "../../public/data/projets.json" ; 
 import ProjectCard from "./ProjectCard"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 
-function ProjectCarrousel () {
+function ProjectCarrousel() {
     return (
         <Carousel
         autoPlay 
@@ -12,6 +12,7 @@ function ProjectCarrousel () {
         infiniteLoop
         showIndicators={false}
         showStatus={false}
+        showThumbs={false}
         >
               {
             projets.map((projectCard) => (

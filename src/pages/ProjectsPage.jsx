@@ -1,4 +1,4 @@
-import { useState } from "react";
+import {  useState } from "react";
 import ProjectCarrousel from "../components/ProjectCarrousel";
 import ProjectList from "../components/ProjectList";
 import '../styles/projectsPage.css'
@@ -11,6 +11,7 @@ function ProjectsPage() {
     return (
 
         <>
+
         <form className="choice-list">
           <label className='label' htmlFor="card-select">
             Filtrer par{""}
@@ -33,8 +34,10 @@ function ProjectsPage() {
             ( <ProjectList /> ) 
             }
         </div>
+      
         </>
-    );
-}
+    ) }
+    
+
 
 export default ProjectsPage;
