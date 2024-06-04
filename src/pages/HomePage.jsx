@@ -1,7 +1,5 @@
-import '../styles/home.css'
-
+import '../styles/home.css';
 import photoProfil from "../assets/photoProfile.png"
-
 
 function HomePage() {
     return (
