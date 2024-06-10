@@ -12,6 +12,7 @@ function ProjectCarrousel () {
         infiniteLoop
         showIndicators={false}
         showStatus={false}
+        showThumbs={false}
         >
               {
             projets.map((projectCard) => (
