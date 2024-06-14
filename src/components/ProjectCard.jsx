@@ -21,13 +21,6 @@ function ProjectCard ({projectCard}) {
 }, [projectCard,images]);
 
 
-/*     useEffect(() => {
-        import(`../assets/${projectCard.image}`).then((image) => {
-            setImageSrc(image.default);
-        }).catch((error) => {
-            console.error(`L'image ${projectCard.image} n'a pas pu être chargée : `, error);
-        });
-    }, [projectCard.image]); */
 
     return (
         <div className='card-container'>
@@ -36,10 +29,9 @@ function ProjectCard ({projectCard}) {
             {imageSrc ? <img className='imgCard' src={imageSrc} alt={`logo ${projectCard.name}`} /> : <p> Loading...</p> }
             <p className='pCard'>{projectCard.description}</p>
             <p className='techCard'>{projectCard.techno}</p>
-            <a className='lie
-            nsSite' rel="stylesheet" href={projectCard.site} >Site</a>
-            <a className='liensRepo' rel="stylesheet" href={projectCard.repo} >Github</a>
+            <a className='liensSite' target="_blank" href={projectCard.site} >Site</a>
+            <a className='liensRepo' target="_blank" href={projectCard.repo} >Github</a>
         </div>
         </div> )} 
 
-export default ProjectCard ;
+export default ProjectCard;
