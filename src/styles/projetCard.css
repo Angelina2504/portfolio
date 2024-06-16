@@ -7,29 +7,36 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    background-color: brown;
+   /* background-color: brown;*/
     width: 450px;
     height: auto;
+    border : 0.5rem solid;
+    border-color: #6ACFC7;
+    box-shadow:7px 9px 14px 0px #74D8C7;
     border-radius: 25%;
     margin: 1rem;
 }
 
+
+
 .h2Card  {
     flex-direction: column;
-    background-color: rgb(202, 248, 202);
+   /* background-color: rgb(202, 248, 202);*/
     text-align: center;
     border-radius: 25%;
     width: 150px;
 }
 
 .imgCard {
-    background-color: blue;
+   /* background-color: blue;*/
     border-radius: 50%;
+    
+    
 }
 
 .pCard {
     
-    background-color: aqua;
+   /* background-color: aqua;*/
     text-align: center;
     border-radius: 25%;
     width: 250px;
@@ -37,7 +44,7 @@
 }
 
 .techCard {
-    background-color: aliceblue;
+   /* background-color: aliceblue;*/
     text-align: center;
     border-radius: 25%;
     width: 250px;
@@ -45,14 +52,14 @@
 }
 
 .liensSite {
-    background-color: yellowgreen;
+   /* background-color: yellowgreen;*/
     text-align: center;
     border-radius: 25%;
     width: 100px;
 }
 
 .liensRepo {
-    background-color: orange;
+   /* background-color: orange;*/
     text-align: center;
     border-radius: 25%;
     width: 100px;
