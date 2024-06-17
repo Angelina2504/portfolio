@@ -6,9 +6,14 @@ import "../styles/footer.css";
 function Footer() {
     return (
 <>
+<section className="footer">
+
   <p>Copyright © 2024 Angélina Droz</p>
-  <Link rel="stylesheet" href="https://github.com/Angelina2504" ><img src={iconGithub} alt="icon Github to visit my page" /></Link>
-  <Link rel="stylesheet" href="https://www.linkedin.com/in/angelina-droz/"><img src={iconLinkedin} alt="icon Linkedin to visit my page" /></Link> 
+<div className="iconsFooter">
+  <Link href="https://github.com/Angelina2504" ><img src={iconGithub} alt="icon Github to visit my page" /></Link>
+  <Link href="https://www.linkedin.com/in/angelina-droz/"><img src={iconLinkedin} alt="icon Linkedin to visit my page" /></Link> 
+</div>
+</section>
 </>
     )
 }
