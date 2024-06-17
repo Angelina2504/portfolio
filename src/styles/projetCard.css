@@ -17,8 +17,6 @@
     margin: 1rem;
 }
 
-
-
 .h2Card  {
     flex-direction: column;
    /* background-color: rgb(202, 248, 202);*/
@@ -30,8 +28,7 @@
 .imgCard {
    /* background-color: blue;*/
     border-radius: 50%;
-    
-    
+    width: 200px;
 }
 
 .pCard {

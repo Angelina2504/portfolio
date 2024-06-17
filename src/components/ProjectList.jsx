@@ -2,8 +2,6 @@ import projets from "../../public/data/projets.json"
 import ProjectCard from "./ProjectCard"
 
 
-
-
 function ProjectList() {
 
 
