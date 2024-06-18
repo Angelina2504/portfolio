@@ -1,9 +1,10 @@
 .footer {
 display: flex;
-margin-top: 20px;
+justify-content: space-around;
+align-items: center;
+height: 100%;
 }
 
-
-.footer .iconsFooter{
-    display: block;
+.iconsGit {
+    padding: 10px;
 }

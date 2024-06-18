@@ -1,7 +1,21 @@
+
 *{
+    box-sizing: border-box;
+    line-height: 1.5;
     background-color: #1D3535;
     color: #C2C2C2;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h2{

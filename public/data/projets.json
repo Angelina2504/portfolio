@@ -4,7 +4,7 @@
  [
     {
         "id" :"1",
-        "image":"logo-no-made.png",
+        "image":"homeNoMade.png",
         "name": "No-made",
         "description": "Proposer un site de connection à la nature en intérieur et en exterieur.",
         "techno":"React.js / module.CSS",
@@ -14,7 +14,7 @@
     },
     {
         "id" :"2",
-        "image":"logo-lego-muscu.png",
+        "image":"homeLegoMuscu.png",
         "name": "Lego Muscu",
         "description": "Trouver son coach sportif en fonction des résultats du questionnaire",
         "techno":"HTML / CSS / JS",

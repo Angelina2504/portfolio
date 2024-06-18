@@ -27,8 +27,9 @@
 
 .imgCard {
    /* background-color: blue;*/
-    border-radius: 50%;
-    width: 200px;
+    border-radius: 15%;
+    width: 400px;
+    height: auto;
 }
 
 .pCard {

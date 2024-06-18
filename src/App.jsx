@@ -5,17 +5,17 @@ import '../src/App.css'
 
 function App() {
     return (
-        <>
-        <nav> 
-            <Navbar></Navbar>
-        </nav>
-        <main>
+    <>
+        <Navbar></Navbar>
+
+        <section className="page-container">
+            
             <Outlet/>
-        </main>
-        <footer>
-            <Footer/>
-        </footer>
-        </>
+        
+        </section> 
+        
+        <Footer/>
+    </>
     );
 }
 

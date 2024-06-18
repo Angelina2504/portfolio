@@ -5,16 +5,18 @@ import "../styles/footer.css";
 
 function Footer() {
     return (
-<>
-<section className="footer">
+
+<footer className="footer">
 
   <p>Copyright © 2024 Angélina Droz</p>
+
 <div className="iconsFooter">
-  <Link href="https://github.com/Angelina2504" ><img src={iconGithub} alt="icon Github to visit my page" /></Link>
-  <Link href="https://www.linkedin.com/in/angelina-droz/"><img src={iconLinkedin} alt="icon Linkedin to visit my page" /></Link> 
+  <Link className="iconsGit " href="https://github.com/Angelina2504" ><img src={iconGithub} alt="icon Github to visit my page" /></Link>
+  <Link className="iconslkd" href="https://www.linkedin.com/in/angelina-droz/"><img src={iconLinkedin} alt="icon Linkedin to visit my page" /></Link> 
 </div>
-</section>
-</>
+
+</footer>
+
     )
 }
 
