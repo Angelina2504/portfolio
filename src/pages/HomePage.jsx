@@ -10,13 +10,14 @@ function HomePage() {
     return (
     
     <section className='home'>
-    
     <h1>Bonjour ! Je suis Angélina Droz</h1>
-    <h2>Developpeuse fullstack</h2>
+    <h2>Developpeuse Web fullstack</h2>
 
     <img src={photoProfil} alt="Myself's Picture" />
+
+    <p className='prez'>En reconversion professionnelle pour devenir développeuse web, je suis à la recherche d'une alternance pour mettre en pratique mes compétences. Avant de me lancer dans le développement web, j'ai travaillé dans différents domaines tels que l'organisation de projets culturels, la librairie, la gestion d'un pressing et en tant qu'assistante d'éducation. Ces expériences m'ont permis de développer diverses compétences en gestion de projet, en organisation et en travail en équipe !</p>
     
-    <p>Les technos que je connais : </p>
+    <h2>Mes technos </h2>
     <img src={html5} alt="icon html5" />
     <img src={css3} alt="icon css3" />
     <img src={javascript} alt="javascript" />
