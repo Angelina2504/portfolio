@@ -9,6 +9,10 @@ h1{
     font-size: 2em;
 }
 
+h2{
+    font-size: 35px;
+}
+
 .prez{
     margin: 0rem 35rem;
     padding: 2rem;
@@ -17,6 +21,7 @@ h1{
     border-radius: 15px;
     border-color: #6ACFC7;
     box-shadow:0px 0px 7px 0px #74D8C7;
+    font-size: 20px;
 }
 
 .iconTechno{

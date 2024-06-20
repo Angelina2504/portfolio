@@ -1,16 +1,22 @@
 .choice-list {
     display: flex;
     justify-content: center;
-    background-color: blueviolet;
 }
 
 .label {
-    background-color: blue;
+   /* background-color: blue;*/
+    display: flex;
+    gap: 1em;
     color: white;
     padding: 0.5em;
+    font-size: 18px;
+    
 }
 
 .select-list{
-    background-color: green;
+    /*background-color: green;*/
     color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: medium;
 }
