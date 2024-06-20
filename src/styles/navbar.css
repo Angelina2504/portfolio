@@ -1,0 +1,35 @@
+.navBar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navBar a{
+    text-decoration: none;
+}
+
+.navBar a:hover{
+   font-weight: bolder;
+   color: whitesmoke;
+}
+
+.contactMe {
+    display: flex;
+    align-items: center;
+    
+    .imgLink {
+        display: flex;
+    }
+
+}
+
+.bloclkd  {
+display: flex;
+}
+
+.linkedin-icon {
+    width: 30px;
+    margin-left: 5px; /* Optional: Adds a small gap between text and icon */
+}

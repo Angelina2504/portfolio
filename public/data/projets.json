@@ -4,23 +4,22 @@
  [
     {
         "id" :"1",
-        "image":"logo-lego-muscu.png",
+        "image":"homeNoMade.png",
+        "name": "No-made",
+        "description": "Proposer un site de connection à la nature en intérieur et en exterieur.",
+        "techno":"React.js / module.CSS",
+        "repo":"https://github.com/Angelina2504/no_made",
+        "site":"https://no-made.vercel.app/"
+    
+    },
+    {
+        "id" :"2",
+        "image":"homeLegoMuscu.png",
         "name": "Lego Muscu",
         "description": "Trouver son coach sportif en fonction des résultats du questionnaire",
         "techno":"HTML / CSS / JS",
         "repo": "https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-P1-Lego-Muscu.git",
         "site":"https://wildcodeschool-2024-02.github.io/JS-RemoteFR-P1-Lego-Muscu/"
         
-    },
-    {
-        "id" :"2",
-        "image":"logo-no-made.png",
-        "name": "No-made",
-        "description": "Proposer un site de connection à la nature en intérieur et en exterieur.",
-        "techno":"React.js / module.CSS",
-        "repo":"",
-        "site":""
-    
     }
-   
 ]
