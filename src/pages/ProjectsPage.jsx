@@ -14,7 +14,7 @@ function ProjectsPage() {
 
         <form className="choice-list">
           <label className='label' htmlFor="card-select">
-            Filtrer par{""}
+            Affichage{""}
             <select className="select-list"
               id="card-select"
               onChange={(e) => setViewMode(e.target.value)}

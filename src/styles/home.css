@@ -3,14 +3,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 1rem;
 }
 
 h1{
     font-size: 2em;
+    margin: 0.5rem;
 }
 
 h2{
     font-size: 35px;
+    margin: 0.5rem;
 }
 
 .prez{
@@ -56,4 +59,57 @@ h2{
 
 .titleTechno {
     padding: 2rem;
+}
+
+@media (max-width: 1200px) {
+    .prez {
+        margin: 0rem 20rem; /* Réduire les marges sur les écrans plus petits */
+        font-size: 18px; /* Ajuster la taille de la police */
+    }
+}
+
+@media (max-width: 992px) {
+    .prez {
+        margin: 0rem 10rem; /* Réduire davantage les marges */
+        font-size: 18px; /* Ajuster la taille de la police */
+    }
+}
+
+@media (max-width: 768px) {
+    .prez {
+        margin: 0rem 5rem; /* Réduire encore les marges */
+        font-size: 16px; /* Ajuster la taille de la police */
+        padding: 1.5rem; /* Réduire le padding */
+    }
+}
+
+@media (max-width: 576px) {
+    .prez {
+        margin: 0rem 2rem; /* Réduire les marges au minimum */
+        font-size: 16px; /* Ajuster la taille de la police */
+        padding: 1rem; /* Réduire le padding */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Réduire la taille de la police pour h1 */
+    }
+
+    h2 {
+        font-size: 28px; /* Réduire la taille de la police pour h2 */
+    }
+}
+
+@media (max-width: 768px) {
+    .iconTechno {
+        grid-template-columns: repeat(2, 1fr); /* Utiliser des colonnes flexibles */
+        gap: 10px;
+    }
+
+    .iconTechno2 {
+        grid-template-columns: 1fr; /* Une seule colonne flexible */
+    }
+
+    .allTechno {
+        padding: 2rem; /* Réduire le padding sur les petits écrans */
+    }
 }

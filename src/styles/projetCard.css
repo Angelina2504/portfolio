@@ -1,6 +1,7 @@
 .card-container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .projetCard-container {
@@ -13,24 +14,28 @@
     border : 0.2rem solid;
     border-color: #6ACFC7;
     box-shadow:0px 0px 7px 0px #74D8C7;
-    border-radius: 25%;
+    border-radius: 15%;
     margin: 1rem;
-    padding: 0 1em;
+    padding: 1em;
+    transition: width 0.3s, padding 0.3s;
 }
 
 .h2Card  {
-    flex-direction: column;
-   /* background-color: rgb(202, 248, 202);*/
+     /* flex-direction: column;
+  background-color: rgb(202, 248, 202);
     text-align: center;
     border-radius: 25%;
-    width: 150px;
+    width: 150px;*/
+    text-align: center;
+    margin: 0.5rem 0;
 }
 
 .imgCard {
    /* background-color: blue;*/
     border-radius: 8%;
-    width: 400px;
+    width: 100%;
     height: auto;
+    object-fit: cover; /* Couvre le conteneur sans distorsion */
 }
 
 .pCard {
@@ -38,7 +43,7 @@
    /* background-color: aqua;*/
     text-align: center;
     border-radius: 25%;
-    width: 350px;
+    width: 100%;
     padding: 1rem;
     font-size: 20px;
 }
@@ -47,7 +52,7 @@
    /* background-color: aliceblue;*/
     text-align: center;
     border-radius: 25%;
-    width: 250px;
+    width: 100%;
     padding: 0.5rem;
 }
 
@@ -67,6 +72,63 @@
 }
 
 a:hover{
+    font-weight: bolder;
+    color: whitesmoke;
+}
+
+@media (max-width: 1200px) {
+    .projetCard-container {
+        width: 400px;
+        padding: 0 0.5em;
+    }
+
+    .pCard {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 992px) {
+    .projetCard-container {
+        width: 350px;
+    }
+
+    .pCard {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .projetCard-container {
+        width: 300px;
+    }
+
+    .pCard {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .projetCard-container {
+        width: 100%; /* Prend toute la largeur disponible */
+        padding: 0 1rem;
+    }
+
+    .pCard {
+        font-size: 14px;
+    }
+
+    .h2Card {
+        width: 100%; /* Ajuste la largeur pour s'adapter à l'écran */
+    }
+
+    .liensSite, .liensRepo {
+        width: 80px; /* Réduit la largeur des liens */
+        margin: 0.5rem auto; /* Centre les liens */
+    }
+}
+
+/* Effet hover */
+a:hover {
     font-weight: bolder;
     color: whitesmoke;
 }
