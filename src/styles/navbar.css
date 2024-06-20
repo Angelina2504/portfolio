@@ -35,5 +35,26 @@ align-items: center;
 
 .linkedin-icon {
     width: 30px;
-    margin-left: 5px; /* Optional: Adds a small gap between text and icon */
+    margin-left: 5px; 
+}
+
+@media (max-width: 768px) {
+    .navBar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navBar li {
+        margin-bottom: 10px;
+    }
+
+    .contactMe {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .linkedin-icon {
+        margin-left: 0;
+        margin-top: 5px;
+    }
 }
