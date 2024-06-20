@@ -21,13 +21,11 @@
 }
 
 .h2Card  {
-     /* flex-direction: column;
-  background-color: rgb(202, 248, 202);
-    text-align: center;
-    border-radius: 25%;
-    width: 150px;*/
+  /*background-color: rgb(202, 248, 202);*/
     text-align: center;
     margin: 0.5rem 0;
+    z-index: -999;
+
 }
 
 .imgCard {
@@ -36,6 +34,7 @@
     width: 100%;
     height: auto;
     object-fit: cover; /* Couvre le conteneur sans distorsion */
+    
 }
 
 .pCard {
@@ -78,7 +77,7 @@ a:hover{
 
 @media (max-width: 1200px) {
     .projetCard-container {
-        width: 400px;
+        max-width: 400px;
         padding: 0 0.5em;
     }
 
@@ -89,7 +88,7 @@ a:hover{
 
 @media (max-width: 992px) {
     .projetCard-container {
-        width: 350px;
+        max-width: 350px;
     }
 
     .pCard {
@@ -99,7 +98,7 @@ a:hover{
 
 @media (max-width: 768px) {
     .projetCard-container {
-        width: 300px;
+        max-width: 300px;
     }
 
     .pCard {
@@ -109,7 +108,7 @@ a:hover{
 
 @media (max-width: 576px) {
     .projetCard-container {
-        width: 100%; /* Prend toute la largeur disponible */
+        max-width: 100%; /* Prend toute la largeur disponible */
         padding: 0 1rem;
     }
 
