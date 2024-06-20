@@ -2,11 +2,53 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-direction: column;
 }
 
+h1{
+    font-size: 2em;
+}
 
-.home .img{
+.prez{
+    margin: 0rem 35rem;
+    padding: 2rem;
+    text-align: justify;
+    border: 1px solid;
+    border-radius: 15px;
+    border-color: #6ACFC7;
+    box-shadow:0px 0px 7px 0px #74D8C7;
+}
+
+.iconTechno{
+    display: grid;
+    grid-template-columns: repeat(2, 150px) ;
+    justify-items: center;
+    align-items: center;
+}
+
+.iconTechno2{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-items: center;
+    align-items: center;
+}
+
+.allTechno{
     display: flex;
-   
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 1.5rem;
+    border-color: #6ACFC7;
+    box-shadow:0px 0px 7px 0px #74D8C7;
+}
+
+.allTechno img{
+    width: 70px;
+}
+
+.titleTechno {
+    padding: 2rem;
 }
