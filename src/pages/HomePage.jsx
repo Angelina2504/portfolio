@@ -10,17 +10,23 @@ import react from "/src/assets/react-logo-light.svg";
 // import express from "/src/assets/express-light.svg";
 import express from "/src/assets/express-dark.svg";
 import MySQL from "/src/assets/mysql.svg";
+import workInProgress from "/src/assets/enConstruction.png";
 
 function HomePage() {
     return (
 
     <section className='home'>
-    <h1>Bonjour ! Je suis Angélina Droz</h1>
-    <h2>Developpeuse Web fullstack</h2>
+        <div className="workInProgress">
+            <img className="transparent" src={workInProgress} alt="work in progress"/>
+            <span className="transparent">Revenez régulièrement pour suivre les nouveautés...!</span>
+        </div>
 
-    <img src={photoProfil} alt="Myself's Picture" />
+        <h1>Bonjour ! Je suis Angélina Droz</h1>
+        <h2>Developpeuse Web fullstack</h2>
 
-    <p className='prez'>En reconversion professionnelle pour devenir développeuse web, je suis à la recherche d&apos;une alternance pour mettre en pratique mes compétences. Avant de me lancer dans le développement web, j'ai travaillé dans différents domaines tels que l'organisation de projets culturels, la librairie, la gestion d'un pressing et en tant qu'assistante d'éducation. Ces expériences m'ont permis de développer diverses compétences en gestion de projet, en organisation et en travail en équipe !</p>
+        <img src={photoProfil} alt="Myself's Picture"/>
+
+        <p className="prez">En reconversion professionnelle pour devenir développeuse web, je suis à la recherche d&apos;une alternance pour mettre en pratique mes compétences. Avant de me lancer dans le développement web, j'ai travaillé dans différents domaines tels que l'organisation de projets culturels, la librairie, la gestion d'un pressing et en tant qu'assistante d'éducation. Ces expériences m'ont permis de développer diverses compétences en gestion de projet, en organisation et en travail en équipe !</p>
 
     <h2 className='titleTechno'>Mes technos </h2>
 
