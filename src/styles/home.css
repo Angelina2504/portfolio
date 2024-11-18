@@ -17,87 +17,93 @@ h2{
 }
 
 .prez{
-    margin: 0rem 35rem;
+    margin: 0 35rem;
     padding: 2rem;
     text-align: justify;
-    border: 1px solid;
     border-radius: 15px;
-    border-color: #6ACFC7;
-    box-shadow:0px 0px 7px 0px #74D8C7;
+    border: 1px solid #6ACFC7;
+    box-shadow:0 0 7px 0 #74D8C7;
     font-size: 20px;
 }
 
-.iconTechno{
+.iconFrontTechno,
+.iconBackTechno {
     display: grid;
     grid-template-columns: repeat(2, 150px) ;
     justify-items: center;
     align-items: center;
-    gap: 20px;
+    gap: 17px;
 }
 
-.allTechno{
+.frontTechno,
+.backTechno{
     display: flex;
     align-items: center;
     flex-direction: column;
-    border: 1px solid;
     border-radius: 15px;
     padding: 1rem;
-    border-color: #6ACFC7;
-    box-shadow:0px 0px 7px 0px #74D8C7;
+    border: 1px solid #6ACFC7;
+    box-shadow:0 0 7px 0 #74D8C7;
 }
 
-.allTechno img {
-    width: 70px;
+/* Conteneur pour les cercles */
+.circle {
+    background-color: #FFFFFF; /* Fond blanc */
+    border-radius: 50%; /* Cercle parfait */
+    width: 100px; /* Taille fixe du cercle */
+    height: 100px; /* Taille fixe du cercle */
+    display: flex; /* Centrer les contenus */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre subtile */
+    border: 2px solid #6ACFC7; /* Bordure */
+    overflow: hidden; /* Empêche le débordement */
 }
 
-.allTechno img.T1 {
-    width: 100px;
+/* Normalisation des SVG */
+.circle img {
+    background-color: transparent;
+    width: 85px; /* Ajuste la largeur à 90% du cercle */
+    height: 85px; /* Ajuste la hauteur à 90% du cercle */
+    object-fit: contain; /* Adapte le SVG au conteneur tout en préservant ses proportions */
+    display: block; /* Supprime tout espace blanc ou marge par défaut */
+    margin: auto; /* S'assure que le SVG est centré */
 }
+
+img.T1 {
+    width: 80px;
+}
+
+img.B3 {
+    padding-bottom: 10px;
+}
+
 
 .titleTechno {
     padding: 2rem;
 }
 
 .backTechno{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid;
-    border-radius: 15px;
-    padding: 1.5rem;
-    border-color: #6ACFC7;
-    box-shadow:0px 0px 7px 0px #74D8C7;
     margin-top: 30px;
-}
-
-.backTechno img{
-    width: 70px;
-}
-
-.iconBackTechno{
-    display: grid;
-    grid-template-columns: repeat(2, 150px) ;
-    justify-items: center;
-    align-items: center;
 }
 
 @media (max-width: 1200px) {
     .prez {
-        margin: 0rem 20rem; /* Réduire les marges sur les écrans plus petits */
+        margin: 0 20rem; /* Réduire les marges sur les écrans plus petits */
         font-size: 18px; /* Ajuster la taille de la police */
     }
 }
 
 @media (max-width: 992px) {
     .prez {
-        margin: 0rem 10rem; /* Réduire davantage les marges */
+        margin: 0 10rem; /* Réduire davantage les marges */
         font-size: 18px; /* Ajuster la taille de la police */
     }
 }
 
 @media (max-width: 768px) {
     .prez {
-        margin: 0rem 5rem; /* Réduire encore les marges */
+        margin: 0 5rem; /* Réduire encore les marges */
         font-size: 16px; /* Ajuster la taille de la police */
         padding: 1.5rem; /* Réduire le padding */
     }
@@ -105,7 +111,7 @@ h2{
 
 @media (max-width: 576px) {
     .prez {
-        margin: 0rem 2rem; /* Réduire les marges au minimum */
+        margin: 0 2rem; /* Réduire les marges au minimum */
         font-size: 16px; /* Ajuster la taille de la police */
         padding: 1rem; /* Réduire le padding */
     }
@@ -120,13 +126,13 @@ h2{
 }
 
 @media (max-width: 768px) {
-    .iconTechno,
+    .iconFrontTechno,
     .iconBackTechno{
         grid-template-columns: repeat(2, 1fr); /* Utiliser des colonnes flexibles */
         gap: 10px;
     }
 
-    .allTechno {
+    .frontTechno {
         padding: 2rem; /* Réduire le padding sur les petits écrans */
     }
 }

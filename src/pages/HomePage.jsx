@@ -4,12 +4,12 @@ import html5 from "/src/assets/html52.svg";
 import css3 from "/src/assets/css3.svg";
 // import css3Html5 from "/src/assets/css3-html5.svg";
 import javascript from "/src/assets/javascript-shield.svg";
-// import nodejs from "/src/assets/nodejs-stacked-dark.svg";
-import nodejs from "/src/assets/nodejs-stacked-light.svg";
+import nodejs from "/src/assets/nodejs-stacked-dark.svg";
+// import nodejs from "/src/assets/nodejs-stacked-light.svg";
 // import react from "/src/assets/react-logo-dark.svg";
 import react from "/src/assets/react-logo-light.svg";
-import express from "/src/assets/express-light.svg";
-// import express from "/src/assets/express-dark.svg";
+// import express from "/src/assets/express-light.svg";
+import express from "/src/assets/express-dark.svg";
 import MySQL from "/src/assets/mysql.svg";
 
 function HomePage() {
@@ -25,19 +25,33 @@ function HomePage() {
 
     <h2 className='titleTechno'>Mes technos </h2>
 
-<div className='allTechno'>
-    <div className='iconTechno'>
-        <img className='T1' src={html5} alt="icon html5" />
-        <img className="T2" src={css3} alt="icon css3" />
-        <img className="T3" src={javascript} alt="javascript" />
-        <img className="T4" src={react} alt="react" />
+<div className='frontTechno'>
+    <div className='iconFrontTechno'>
+        <div className='circle'>
+            <img className='T1' src={html5} alt="icon html5" />
+        </div>
+        <div className='circle'>
+            <img className="T2" src={css3} alt="icon css3" />
+        </div>
+        <div className='circle'>
+            <img className="T3" src={javascript} alt="javascript" />
+        </div>
+        <div className='circle'>
+            <img className="T4" src={react} alt="react" />
+        </div>
      </div>
 </div>
 <div className='backTechno'>
     <div className='iconBackTechno'>
-        <img className='B1' src={nodejs} alt="icon node.js" />
-        <img className="B2" src={express} alt="icon Express" />
-        <img className="B3" src={MySQL} alt="MySQL" />
+        <div className='circle'>
+            <img className='B1' src={nodejs} alt="icon node.js" />
+        </div>
+        <div className='circle'>
+            <img className="B2" src={express} alt="icon Express" />
+        </div>
+        <div className='circle'>
+            <img className="B3" src={MySQL} alt="MySQL" />
+        </div>
      </div>
 </div>
 
