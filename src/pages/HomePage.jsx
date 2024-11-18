@@ -1,8 +1,7 @@
 import '../styles/home.css';
 import photoProfil from "../assets/photoProfile.png"
-import html5 from "/src/assets/html52.svg";
+import html5 from "/src/assets/html5.svg";
 import css3 from "/src/assets/css3.svg";
-// import css3Html5 from "/src/assets/css3-html5.svg";
 import javascript from "/src/assets/javascript-shield.svg";
 import nodejs from "/src/assets/nodejs-stacked-dark.svg";
 // import nodejs from "/src/assets/nodejs-stacked-light.svg";
