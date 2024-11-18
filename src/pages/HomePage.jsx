@@ -37,28 +37,36 @@ function HomePage() {
             <img className="T3" src={javascript} alt="javascript" />
         </div>
         <div className='circle'>
-            <img className="T4" src={react} alt="react" />
+            <a className='transparent' href='https://react.dev' target='_blank'>
+                <img className="T4" src={react} alt="react" />
+            </a>
         </div>
      </div>
 </div>
 <div className='backTechno'>
     <div className='iconBackTechno'>
-        <div className='circle'>
-            <img className='B1' src={nodejs} alt="icon node.js" />
+        <div className="circle circ-B1">
+            <a className="transparent" href="https://nodejs.org" target="_blank">
+                <img className="B1" src={nodejs} alt="icon node.js"/>
+            </a>
         </div>
-        <div className='circle'>
-            <img className="B2" src={express} alt="icon Express" />
+        <div className="circle circ-B2">
+            <a className="transparent" href="https://expressjs.com" target="_blank">
+                <img className="B2" src={express} alt="icon Express"/>
+            </a>
         </div>
-        <div className='circle'>
-            <img className="B3" src={MySQL} alt="MySQL" />
+        <div className="circle circ-B3">
+            <a className="transparent" href="https://mysql.com" target="_blank">
+                <img className="B3" src={MySQL} alt="MySQL"/>
+            </a>
         </div>
-     </div>
+    </div>
 </div>
 
     </section>
 
 
-    );
+);
 }
 
 export default HomePage;

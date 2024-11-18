@@ -26,6 +26,11 @@ h2{
     font-size: 20px;
 }
 
+.transparent {
+    background-color: transparent;
+    border: none;
+}
+
 .iconFrontTechno,
 .iconBackTechno {
     display: grid;
@@ -33,6 +38,26 @@ h2{
     justify-items: center;
     align-items: center;
     gap: 17px;
+}
+
+.iconBackTechno {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "node express" /* First row: two columns */
+        "mysql mysql"; /* Second row spans two columns */
+}
+
+/* match the grid areas to the class names, node and express on first row on two columns, mysql on second row on two columns */
+.circ-B1 {
+    grid-area: node;
+}
+.circ-B2 {
+    grid-area: express;
+}
+.circ-B3 {
+    grid-area: mysql;
 }
 
 .frontTechno,
