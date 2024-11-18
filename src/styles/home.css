@@ -32,6 +32,7 @@ h2{
     grid-template-columns: repeat(2, 150px) ;
     justify-items: center;
     align-items: center;
+    gap: 20px;
 }
 
 .allTechno{
@@ -40,13 +41,17 @@ h2{
     flex-direction: column;
     border: 1px solid;
     border-radius: 15px;
-    padding: 1.5rem;
+    padding: 1rem;
     border-color: #6ACFC7;
     box-shadow:0px 0px 7px 0px #74D8C7;
 }
 
-.allTechno img{
+.allTechno img {
     width: 70px;
+}
+
+.allTechno img.T1 {
+    width: 100px;
 }
 
 .titleTechno {
@@ -115,13 +120,10 @@ h2{
 }
 
 @media (max-width: 768px) {
-    .iconTechno {
+    .iconTechno,
+    .iconBackTechno{
         grid-template-columns: repeat(2, 1fr); /* Utiliser des colonnes flexibles */
         gap: 10px;
-    }
-
-    .iconTechno2 {
-        grid-template-columns: 1fr; /* Une seule colonne flexible */
     }
 
     .allTechno {
