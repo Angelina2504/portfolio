@@ -1,10 +1,12 @@
 import '../styles/home.css';
 import photoProfil from "../assets/photoProfile.png"
-import html5 from "/src/assets/html5.png";
+import html5 from "/src/assets/HTML5.svg";
 import css3 from "/src/assets/css3.png";
 import javascript from "/src/assets/js.png";
 import nodejs from "/src/assets/nodejs.png";
 import react from "/src/assets/react.png";
+import express from "/src/assets/express.png";
+import MySQL from "/src/assets/MySQL.png"
 
 function HomePage() {
     return (
@@ -26,9 +28,13 @@ function HomePage() {
         <img className="T3" src={javascript} alt="javascript" />
         <img className="T4" src={react} alt="react" />
      </div>  
-     <div className='iconTechno2'>
-        <img className="T5" src={nodejs} alt="nodejs" />
-    </div>
+</div>
+<div className='backTechno'>
+    <div className='iconBackTechno'>
+        <img className='B1' src={nodejs} alt="icon node.js" />
+        <img className="B2" src={express} alt="icon Express" />
+        <img className="B3" src={MySQL} alt="MySQL" />
+     </div>  
 </div>
 
     </section>

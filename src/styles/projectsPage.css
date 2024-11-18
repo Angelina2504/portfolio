@@ -7,7 +7,7 @@
    /* background-color: blue;*/
     display: flex;
     gap: 1em;
-    color: white;
+    color: #100700;
     padding: 0.5em;
     font-size: 18px;
     padding: 15px;
@@ -17,7 +17,7 @@
 
 .select-list{
     /*background-color: green;*/
-    color: white;
+    color: #100700;
     border-radius: 15px;
     text-align: center;
     font-size: medium;
