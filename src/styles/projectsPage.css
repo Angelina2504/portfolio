@@ -7,17 +7,18 @@
    /* background-color: blue;*/
     display: flex;
     gap: 1em;
-    color: #100700;
+    /*color: #100700;*/ /* light theme */
+    color: #C2C2C2; /* dark theme */
     padding: 0.5em;
     font-size: 18px;
-    padding: 15px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 1.5em;
+
 }
 
 .select-list{
     /*background-color: green;*/
-    color: #100700;
+    /*color: #100700;*/ /* light theme */
+    color: #C2C2C2; /* dark theme */
     border-radius: 15px;
     text-align: center;
     font-size: medium;

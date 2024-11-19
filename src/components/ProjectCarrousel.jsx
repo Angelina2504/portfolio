@@ -1,4 +1,4 @@
-import projets from "../../public/data/projets.json" ; 
+import projets from "../data/projets.json" ;
 import ProjectCard from "./ProjectCard"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
@@ -7,8 +7,8 @@ import { Carousel } from 'react-responsive-carousel';
 function ProjectCarrousel() {
     return (
         <Carousel className="caroussel"
-        autoPlay 
-        interval={5000} 
+        autoPlay
+        interval={5000}
         infiniteLoop
         showIndicators={false}
         showStatus={false}
