@@ -1,15 +1,17 @@
 
-*{
+* {
     box-sizing: border-box;
     line-height: 1.5;
     /*background-color: #57a889;
     color: #100700;*/
-    background-color: #1D3535;
-    color: #C2C2C2;
+    /*background-color: #1D3535;*/
+    /*color: #C2C2C2;*/
+    background-color: var(--background-color);
+    color: var(--text-color);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body{
+body {
     margin: 0;
 }
 
@@ -20,6 +22,6 @@ body{
     align-items: center;
 }
 
-h2{
+h2 {
     font-size: 30px;
 }

@@ -34,11 +34,11 @@
     width: 100%;
     height: auto;
     object-fit: cover; /* Couvre le conteneur sans distorsion */
-    
+
 }
 
 .pCard {
-    
+
    /* background-color: aqua;*/
     text-align: center;
     border-radius: 25%;
@@ -69,7 +69,8 @@
     margin: 1rem;
 }
 
-a:hover{
+.liensRepo a:hover,
+.liensSite a:hover {
     font-weight: bolder;
     color: whitesmoke;
 }
@@ -123,10 +124,4 @@ a:hover{
         width: 80px; /* Réduit la largeur des liens */
         margin: 0.5rem auto; /* Centre les liens */
     }
-}
-
-/* Effet hover */
-a:hover {
-    font-weight: bolder;
-    color: whitesmoke;
 }

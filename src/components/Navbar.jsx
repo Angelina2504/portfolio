@@ -1,5 +1,5 @@
 import "../styles/navbar.css";
-import iconLinkedin from "/src/assets/icon-linkedin.png";
+import iconLinkedinWhite from "/src/assets/icon-linkedin-white.png";
 import { Link } from "react-router-dom";
 import workInProgress from '/src/assets/enConstruction.png';
 
@@ -10,13 +10,10 @@ function Navbar() {
                 <li><Link to="/">Accueil</Link></li>
                 <li><Link to="/projects">Mes projets</Link></li>
                 <li className="blocLkd">
-                <span className="contactMe">
-                    Contactez moi :
-                    <Link className="imgLink" to="https://www.linkedin.com/in/angelina-droz/" target="_blank">
-                        <img className="linkedin-icon"
-                             src={iconLinkedin} alt="icon Linkedin to visit my page"/>
+                    <Link className="contactMe" to="https://www.linkedin.com/in/angelina-droz/" target="_blank">
+                        <span>Contactez moi</span>
+                        <img className="linkedin-icon" src={iconLinkedinWhite} alt="icon Linkedin to visit my page"/>
                     </Link>
-                </span>
                 </li>
             </ul>
 

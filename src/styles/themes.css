@@ -1,0 +1,16 @@
+:root {
+    /* Dark Theme Colors */
+    --background-color: #1d3535; /* General background color */
+    --text-color: #c2c2c2;       /* General text color */
+    --primary-color: #2a6262;    /* Accent or primary color */
+    --secondary-color: #333333;  /* Secondary elements like buttons */
+}
+
+/* Optional: Define light theme variables for later */
+.light-theme {
+    /* Light Theme Colors */
+    --background-color: #57a889; /* General background color */
+    --text-color: #100700;       /* General text color */
+    --primary-color: #3c8d76;    /* Accent or primary color */
+    --secondary-color: #ffffff;  /* Secondary elements like buttons */
+}
