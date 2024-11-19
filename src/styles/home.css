@@ -1,4 +1,4 @@
-.home{
+.home {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,23 +6,23 @@
     padding: 1rem;
 }
 
-h1{
+h1 {
     font-size: 2em;
     margin: 0.5rem;
 }
 
-h2{
+h2 {
     font-size: 35px;
     margin: 0.5rem;
 }
 
-.prez{
+.prez {
     margin: 0 35rem;
     padding: 2rem;
     text-align: justify;
     border-radius: 15px;
-    border: 1px solid #6ACFC7;
-    box-shadow:0 0 7px 0 #74D8C7;
+    border: 1px solid var(--border-color);
+    box-shadow:0 0 7px 0 var(--box-shadow-color);
     font-size: 20px;
 }
 
@@ -61,19 +61,19 @@ h2{
 }
 
 .frontTechno,
-.backTechno{
+.backTechno {
     display: flex;
     align-items: center;
     flex-direction: column;
     border-radius: 15px;
     padding: 1rem;
-    border: 1px solid #6ACFC7;
-    box-shadow:0 0 7px 0 #74D8C7;
+    border: 1px solid var(--border-color);
+    box-shadow:0 0 7px 0 var(--box-shadow-color);
 }
 
 /* Conteneur pour les cercles */
 .circle {
-    background-color: #FFFFFF; /* Fond blanc */
+    background-color: var(--white); /* Fond blanc */
     border-radius: 50%; /* Cercle parfait */
     width: 100px; /* Taille fixe du cercle */
     height: 100px; /* Taille fixe du cercle */
@@ -81,7 +81,7 @@ h2{
     justify-content: center; /* Centrer horizontalement */
     align-items: center; /* Centrer verticalement */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Ombre subtile */
-    border: 2px solid #6ACFC7; /* Bordure */
+    border: 2px solid var(--border-color); /* Bordure */
     overflow: hidden; /* Empêche le débordement */
 }
 
@@ -108,7 +108,7 @@ img.B3 {
     padding: 2rem;
 }
 
-.backTechno{
+.backTechno {
     margin-top: 30px;
 }
 

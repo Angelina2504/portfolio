@@ -5,18 +5,19 @@ import '../src/App.css'
 import '../src/styles/themes.css';
 
 function App() {
+
     return (
-    <>
-        <Navbar></Navbar>
+        <>
+            <Navbar></Navbar>
 
-        <section className="page-container">
+            <section className="page-container">
 
-            <Outlet/>
+                <Outlet/>
 
-        </section>
+            </section>
 
-        <Footer/>
-    </>
+            <Footer/>
+        </>
     );
 }
 
