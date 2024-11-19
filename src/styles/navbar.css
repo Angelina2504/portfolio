@@ -5,7 +5,7 @@
     justify-content: space-around;
     font-size: 1.5rem;
     text-decoration: none;
-    
+
 }
 
 .navBar a{
@@ -21,7 +21,7 @@
 .contactMe {
     display: flex;
     align-items: center;
-    
+
     .imgLink {
         display: flex;
     }
@@ -35,8 +35,55 @@ align-items: center;
 
 .linkedin-icon {
     width: 30px;
-    margin-left: 5px; 
+    margin-left: 5px;
 }
+
+.workInProgress-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.workInProgress {
+    position: relative;
+    background-color: #C2C2C2;
+    color: #1D3535;
+    border-radius: 25px;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    font-size: 1.5em;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    text-align: center;
+    background-image: repeating-linear-gradient(
+            -45deg,
+            rgba(200, 0, 0, 0.4), /* Couleur rouge semi-transparente */
+            rgba(200, 0, 0, 0.4) 20px,
+            rgba(194, 194, 194, 0.5) 20px, /* Couleur grise semi-transparente */
+            rgba(194, 194, 194, 0.5) 40px);
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+}
+
+.workInProgress img {
+    width: 335px;
+    height: 185px;
+    z-index: 1;
+}
+
+.workInProgress span {
+    position: relative;
+    z-index: 2;
+    color: #C2C2C2;
+    width: 250px;
+    background-color: #1D3535C5;
+    border-radius: 25px;
+    padding: 5px;
+}
+
 
 @media (max-width: 768px) {
     .navBar ul {

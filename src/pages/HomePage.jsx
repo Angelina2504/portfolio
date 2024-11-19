@@ -10,17 +10,11 @@ import react from "/src/assets/react-logo-light.svg";
 // import express from "/src/assets/express-light.svg";
 import express from "/src/assets/express-dark.svg";
 import MySQL from "/src/assets/mysql.svg";
-import workInProgress from "/src/assets/enConstruction.png";
 
 function HomePage() {
     return (
 
     <section className='home'>
-        <div className="workInProgress">
-            <img className="transparent" src={workInProgress} alt="work in progress"/>
-            <span className="transparent">Revenez régulièrement pour suivre les nouveautés...!</span>
-        </div>
-
         <h1>Bonjour ! Je suis Angélina Droz</h1>
         <h2>Developpeuse Web fullstack</h2>
 
