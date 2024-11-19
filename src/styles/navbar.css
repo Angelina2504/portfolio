@@ -2,7 +2,7 @@
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    font-size: 1.5rem;
+    font-size: var(--subheading-font-size);
     text-decoration: none;
     padding: 0;
     margin: 0.5em;
@@ -29,7 +29,7 @@
 }
 
 .navBar a:hover {
-    font-weight: normal;
+    font-weight: var(--font-weight-regular);
     color: var(--background-color);
     background-color: var(--text-color);
 }
@@ -52,7 +52,7 @@
 
 .contactMe:hover,
 .my-github:hover {
-    font-weight: normal;
+    font-weight: var(--font-weight-regular);
 
     span {
         transition: color 0.3s, font-weight 0.3s;
@@ -94,6 +94,10 @@
     transform-origin: center;
 }
 
+.theme-toggle:hover {
+    cursor: pointer;
+}
+
 .workInProgress-container {
     display: flex;
     justify-content: center;
@@ -108,7 +112,7 @@
     color: var(--background-color);
     border-radius: 25px;
     padding: 0.5rem 1rem 0.5rem 0.5rem;
-    font-size: 1.5em;
+    font-size: var(--subheading-font-size);
     justify-items: center;
     display: flex;
     align-items: center;

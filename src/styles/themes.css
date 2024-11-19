@@ -1,8 +1,22 @@
 :root,
 .dark-theme {
+    /* General styles */
+
+    /* Font */
+    --font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --heading-font-size: 2rem; /* h1, h2 */
+    --subheading-font-size: 1.5rem; /* h3, section titles */
+    --body-font-size: 1rem; /* General text */
+    --small-font-size: 0.875rem; /* Smaller text */
+    --text-line-height: 1.6; /* Improves readability */
+    --font-weight-bold: 700; /* For bold titles */
+    --font-weight-regular: 400; /* For normal text */
+
     /* Dark Theme Colors */
     --background-color: #1d3535; /* General background color */
+    --background-color-alternative: #57a889; /* Alternative background color */
     --text-color: #c2c2c2;       /* General text color */
+    --text-color-alternative: #100700;  /* Alternative text color */
     --primary-color: #2a6262;    /* Accent or primary color */
     --secondary-color: #333333;  /* Secondary elements like buttons */
     --border-color: #6acfc7;     /* Border color */
@@ -14,7 +28,10 @@
 .light-theme {
     /* Light Theme Colors */
     --background-color: #57a889; /* General background color */
+    --background-color-alternative: #1d3535; /* Alternative background color */
     --text-color: #100700;       /* General text color */
+    --text-color-alternative: #c2c2c2;  /* Alternative text color */
     --primary-color: #3c8d76;    /* Accent or primary color */
     --secondary-color: #ffffff;  /* Secondary elements like buttons */
+    --border-color: #100700;     /* Border color */
 }

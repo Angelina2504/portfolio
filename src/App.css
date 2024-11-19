@@ -8,7 +8,7 @@
     /*color: #C2C2C2;*/
     background-color: var(--background-color);
     color: var(--text-color);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font-family), sans-serif;
 }
 
 body {

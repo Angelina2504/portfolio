@@ -6,7 +6,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 function ProjectCarrousel() {
     return (
-        <Carousel className="caroussel"
+        <Carousel className="carousel"
         autoPlay
         interval={5000}
         infiniteLoop
