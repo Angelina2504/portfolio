@@ -20,7 +20,7 @@ function HomePage() {
 
         <img src={photoProfil} alt="Myself's Picture"/>
 
-        <p className="prez">En reconversion professionnelle pour devenir développeuse web, je suis à la recherche d&apos;une alternance pour mettre en pratique mes compétences. Avant de me lancer dans le développement web, j'ai travaillé dans différents domaines tels que l'organisation de projets culturels, la librairie, la gestion d'un pressing et en tant qu'assistante d'éducation. Ces expériences m'ont permis de développer diverses compétences en gestion de projet, en organisation et en travail en équipe !</p>
+        <p className="prez">En reconversion professionnelle pour devenir développeuse web, je suis à la recherche d&apos;une alternance pour mettre en pratique mes compétences. Avant de me lancer dans le développement web, j&apos;ai travaillé dans différents domaines tels que l&apos;organisation de projets culturels, la librairie, la gestion d&apos;un pressing et en tant qu&apos;assistante d&apos;éducation. Ces expériences m&apos;ont permis de développer diverses compétences en gestion de projet, en organisation et en travail en équipe !</p>
 
     <h2 className='titleTechno'>Mes technos </h2>
 
