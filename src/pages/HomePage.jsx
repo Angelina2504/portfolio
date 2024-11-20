@@ -4,10 +4,7 @@ import html5 from "/src/assets/html5.svg";
 import css3 from "/src/assets/css3.svg";
 import javascript from "/src/assets/javascript-shield.svg";
 import nodejs from "/src/assets/nodejs-stacked-dark.svg";
-// import nodejs from "/src/assets/nodejs-stacked-light.svg";
-// import react from "/src/assets/react-logo-dark.svg";
 import react from "/src/assets/react-logo-light.svg";
-// import express from "/src/assets/express-light.svg";
 import express from "/src/assets/express-dark.svg";
 import MySQL from "/src/assets/mysql.svg";
 
