@@ -1,4 +1,4 @@
-import projets from "../../public/data/projets.json" 
+import projets from "../data/projets.json"
 import ProjectCard from "./ProjectCard"
 
 
@@ -9,7 +9,7 @@ function ProjectList() {
         <>
         {
             projets.map((projectCard) => (
-                <ProjectCard key={projectCard.id} 
+                <ProjectCard key={projectCard.id}
                 projectCard={projectCard}/>
             ))
         }

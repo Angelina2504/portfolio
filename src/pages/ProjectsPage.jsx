@@ -14,7 +14,7 @@ function ProjectsPage() {
 
         <form className="choice-list">
           <label className='label' htmlFor="card-select">
-            Affichage{""}
+            Affichage
             <select className="select-list"
               id="card-select"
               onChange={(e) => setViewMode(e.target.value)}
@@ -25,19 +25,19 @@ function ProjectsPage() {
           </label>
         </form>
 
-        <div>
+        <div className='projects-container'>
             {
              viewMode === 'carousel'
-              ? 
-            ( <ProjectCarrousel /> ) 
-            : 
-            ( <ProjectList /> ) 
+              ?
+            ( <ProjectCarrousel /> )
+            :
+            ( <ProjectList /> )
             }
         </div>
-      
+
         </>
     ) }
-    
+
 
 
 export default ProjectsPage;

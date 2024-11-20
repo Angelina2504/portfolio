@@ -1,13 +1,32 @@
 .footer {
-display: flex;
-justify-content: space-around;
-align-items: center;
-height: 100%;
-margin-top:  50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 50px 0;
 }
 
-.iconsGit img{
+.iconsFooter {
     display: flex;
-    padding: 10px;
-    width: 65px; 
+    gap: 20px;
+}
+
+.icons-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.icons-links:hover,
+.icons-links span:hover,
+.icons-links img:hover,
+.icons-links a:hover {
+   text-decoration: underline;
+}
+
+.icons-img {
+    width: 30px;
+    height: auto;
 }
