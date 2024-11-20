@@ -1,7 +1,8 @@
 import "../styles/navbar.css";
+import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 import iconLinkedinWhite from "/src/assets/icon-linkedin-white.png";
 import iconLinkedinBlue from "/src/assets/icon-linkedin-blue.png";
-import { Link } from "react-router-dom";
 import workInProgress from '/src/assets/enConstruction.png';
 import iconGithubWhite from '../assets/github-white.svg';
 import iconGithubBlack from '../assets/github-black.svg';
@@ -48,5 +49,10 @@ function Navbar({isDarkTheme, toggleTheme}) {
         </nav>
     )
 }
+
+Navbar.propTypes = {
+    isDarkTheme: PropTypes.bool.isRequired,
+    toggleTheme: PropTypes.func.isRequired
+};
 
 export default Navbar;

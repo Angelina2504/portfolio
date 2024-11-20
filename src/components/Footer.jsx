@@ -4,6 +4,7 @@ import iconLinkedInWhite from "/src/assets/icon-linkedin-white.png";
 import iconLinkedInBlue from "/src/assets/icon-linkedin-blue.png";
 import { Link } from "react-router-dom";
 import "../styles/footer.css";
+import PropTypes from 'prop-types';
 
 function Footer({isDarkTheme}) {
     console.log("Footer isDarkTheme:", isDarkTheme);
@@ -28,5 +29,9 @@ function Footer({isDarkTheme}) {
 
     )
 }
+
+Footer.propTypes = {
+    isDarkTheme: PropTypes.bool.isRequired
+};
 
 export default Footer;
