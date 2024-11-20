@@ -3,12 +3,20 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import '../src/App.css'
 import '../src/styles/themes.css';
+import {useState} from 'react';
 
 function App() {
+    const [isDarkTheme, setIsDarkTheme] = useState(true);
 
+    const toggleTheme = () => {
+        setIsDarkTheme(!isDarkTheme);
+        document.documentElement.className = isDarkTheme ? 'light-theme' : 'dark-theme';
+    };
     return (
         <>
-            <Navbar></Navbar>
+            <Navbar isDarkTheme={isDarkTheme}
+                    toggleTheme={toggleTheme}
+            />
 
             <section className="page-container">
 
@@ -16,7 +24,7 @@ function App() {
 
             </section>
 
-            <Footer/>
+            <Footer isDarkTheme={isDarkTheme} />
         </>
     );
 }

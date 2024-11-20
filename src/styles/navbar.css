@@ -77,18 +77,6 @@
     .visible {
         display: none;
     }
-
-    /*img {*/
-    /*    content: url('/src/assets/icon-linkedin-blue.png');*/
-    /*    background-color: var(--text-color);*/
-    /*}*/
-}
-
-.my-github:hover {
-    /*img {*/
-    /*    content: url('/src/assets/github-black.svg');*/
-    /*    background-color: var(--text-color);*/
-    /*}*/
 }
 
 .linkedin-icon,

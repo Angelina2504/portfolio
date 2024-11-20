@@ -5,20 +5,12 @@ import { Link } from "react-router-dom";
 import workInProgress from '/src/assets/enConstruction.png';
 import iconGithubWhite from '../assets/github-white.svg';
 import iconGithubBlack from '../assets/github-black.svg';
-import {useState} from 'react';
 
 // Toggle theme button
 import { Classic } from '@theme-toggles/react';
 import "@theme-toggles/react/css/classic.css";
 
-function Navbar() {
-
-    const [isDarkTheme, setIsDarkTheme] = useState(true);
-
-    const toggleTheme = () => {
-        setIsDarkTheme(!isDarkTheme);
-        document.documentElement.className = isDarkTheme ? 'light-theme' : 'dark-theme';
-    };
+function Navbar({isDarkTheme, toggleTheme}) {
 
     return (
         <nav className="navBar">
@@ -35,7 +27,6 @@ function Navbar() {
                 <li className="blockGithub">
                     <Link className="my-github" to="https://github.com/Angelina2504" target="_blank">
                         <span>Mon Github</span>
-                        {/*<img className="github-icon" src={isDarkTheme ? iconGithubWhite : iconGithubBlack} alt="icon Github to visit my page" />*/}
                         <img className={`github-icon ${!isDarkTheme ? 'hidden' : 'visible'}`} src={iconGithubWhite} alt="icon Github to visit my page" />
                         <img className={`github-icon ${isDarkTheme ? 'hidden' : 'visible'}`} src={iconGithubBlack} alt="icon Github to visit my page" />
                     </Link>
