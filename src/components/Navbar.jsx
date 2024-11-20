@@ -1,8 +1,10 @@
 import "../styles/navbar.css";
 import iconLinkedinWhite from "/src/assets/icon-linkedin-white.png";
+import iconLinkedinBlue from "/src/assets/icon-linkedin-blue.png";
 import { Link } from "react-router-dom";
 import workInProgress from '/src/assets/enConstruction.png';
-import iconGithub from '../assets/github-white.svg';
+import iconGithubWhite from '../assets/github-white.svg';
+import iconGithubBlack from '../assets/github-black.svg';
 import {useState} from 'react';
 
 // Toggle theme button
@@ -26,13 +28,16 @@ function Navbar() {
                 <li className="blockLkd">
                     <Link className="contactMe" to="https://www.linkedin.com/in/angelina-droz/" target="_blank">
                         <span>Contactez moi</span>
-                        <img className="linkedin-icon" src={iconLinkedinWhite} alt="icon Linkedin to visit my page"/>
+                        <img className={`linkedin-icon ${!isDarkTheme ? 'hidden' : 'visible'}`} src={iconLinkedinWhite} alt="icon Linkedin to visit my page"/>
+                        <img className={`linkedin-icon ${isDarkTheme ? 'hidden' : 'visible'}`} src={iconLinkedinBlue} alt="icon Linkedin to visit my page"/>
                     </Link>
                 </li>
                 <li className="blockGithub">
                     <Link className="my-github" to="https://github.com/Angelina2504" target="_blank">
                         <span>Mon Github</span>
-                        <img className="github-icon" src={iconGithub} alt="icon Github to visit my page" />
+                        {/*<img className="github-icon" src={isDarkTheme ? iconGithubWhite : iconGithubBlack} alt="icon Github to visit my page" />*/}
+                        <img className={`github-icon ${!isDarkTheme ? 'hidden' : 'visible'}`} src={iconGithubWhite} alt="icon Github to visit my page" />
+                        <img className={`github-icon ${isDarkTheme ? 'hidden' : 'visible'}`} src={iconGithubBlack} alt="icon Github to visit my page" />
                     </Link>
                 </li>
                 <li className="theme-toggle">
@@ -44,7 +49,7 @@ function Navbar() {
             </ul>
 
             <div className="workInProgress-container">
-                <div className="workInProgress">
+                <div className={`workInProgress ${isDarkTheme ? 'span-dark-theme' : 'span-light-theme'}`}>
                     <img className="transparent" src={workInProgress} alt="work in progress"/>
                     <span className="transparent">Revenez régulièrement pour suivre les nouveautés...!</span>
                 </div>

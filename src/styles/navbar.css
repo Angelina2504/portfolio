@@ -54,25 +54,41 @@
 .my-github:hover {
     font-weight: var(--font-weight-regular);
 
-    span {
+    span, img {
         transition: color 0.3s, font-weight 0.3s;
         color: var(--background-color);
         background-color: var(--text-color);
     }
 }
 
-.contactMe:hover {
-    img {
-        content: url('/src/assets/icon-linkedin-blue.png');
-        background-color: var(--text-color);
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.contactMe:hover,
+.my-github:hover{
+    .hidden {
+        display: block;
     }
+    .visible {
+        display: none;
+    }
+
+    /*img {*/
+    /*    content: url('/src/assets/icon-linkedin-blue.png');*/
+    /*    background-color: var(--text-color);*/
+    /*}*/
 }
 
 .my-github:hover {
-    img {
-        content: url('/src/assets/github-black.svg');
-        background-color: var(--text-color);
-    }
+    /*img {*/
+    /*    content: url('/src/assets/github-black.svg');*/
+    /*    background-color: var(--text-color);*/
+    /*}*/
 }
 
 .linkedin-icon,
@@ -138,11 +154,17 @@
 .workInProgress span {
     position: relative;
     z-index: 2;
-    color: var(--text-color);
     width: 250px;
-    background-color: #1D3535C5;
+    background-color: #1d3535c5;
     border-radius: 25px;
     padding: 5px;
+}
+
+.span-light-theme span {
+    color: var(--background-color);
+}
+.span-dark-theme span {
+    color: var(--text-color);
 }
 
 @media (max-width: 768px) {
