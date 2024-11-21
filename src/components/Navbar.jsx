@@ -9,6 +9,7 @@ import iconGithubBlack from '../assets/github-black.svg';
 
 // Toggle theme button
 import { Classic } from '@theme-toggles/react';
+import "@theme-toggles/react/css/Classic.css"; /* try with an uppercase 'C' */
 
 function Navbar({isDarkTheme, toggleTheme}) {
 
