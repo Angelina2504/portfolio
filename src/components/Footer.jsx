@@ -7,7 +7,6 @@ import "../styles/footer.css";
 import PropTypes from 'prop-types';
 
 function Footer({isDarkTheme}) {
-    console.log("Footer isDarkTheme:", isDarkTheme);
     return (
 
         <footer className="footer">
