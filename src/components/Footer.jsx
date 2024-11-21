@@ -13,13 +13,13 @@ function Footer({isDarkTheme}) {
         <footer className="footer">
             <div className="iconsFooter">
             <span>Copyright © 2024 Angélina Droz</span> |
-                <Link className="icons-links" to="https://github.com/Angelina2504" target="_blank">
-                    <span>Mon Github</span>
+                <Link className="icons-links" to="https://www.linkedin.com/in/angelina-droz/" target="_blank">
+                    <span>Mon LinkedIn</span>
                     <img className={`icons-img ${!isDarkTheme ? ' hidden' : ' visible'}`} src={iconLinkedInWhite} alt="icon Github to visit my page" />
                     <img className={`icons-img ${isDarkTheme ? 'hidden' : 'visible'}`} src={iconLinkedInBlue} alt="icon Github to visit my page" />
                 </Link> |
-                <Link className="icons-links" to="https://www.linkedin.com/in/angelina-droz/" target="_blank">
-                    <span>Mon LinkedIn</span>
+                <Link className="icons-links" to="https://github.com/Angelina2504" target="_blank">
+                    <span>Mon Github</span>
                     <img className={`icons-img ${!isDarkTheme ? 'hidden' : 'visible'}`} src={iconGithubWhite} alt="icon LinkedIn to visit my LinkedIn" />
                     <img className={`icons-img ${isDarkTheme ? 'hidden' : 'visible'}`} src={iconGithubBlack} alt="icon LinkedIn to visit my LinkedIn" />
                 </Link>
