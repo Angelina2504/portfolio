@@ -9,7 +9,8 @@ import iconGithubBlack from '../assets/github-black.svg';
 
 // Toggle theme button
 import { Classic } from '@theme-toggles/react';
-import "@theme-toggles/react/css/classic.css";
+// import "@theme-toggles/react/css/classic.css";
+import "../styles/theme-toggles-classic.css";
 
 function Navbar({isDarkTheme, toggleTheme}) {
 
